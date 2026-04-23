@@ -1,18 +1,18 @@
 # 📊 Calculadora de Média em Java
 
-Este projeto foi desenvolvido como parte dos meus estudos em lógica de programação utilizando Java.
-A aplicação permite que o usuário insira três notas e, a partir disso, calcula automaticamente a média e informa se o aluno foi aprovado ou reprovado.
+Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de lógica de programação utilizando Java.
+A aplicação permite que o usuário insira três notas, calcule automaticamente a média e informe se o aluno foi aprovado ou reprovado.
 
 ---
 
 ## 🎯 Objetivo
 
-Praticar conceitos fundamentais de programação, como:
+Praticar conceitos essenciais de programação, como:
 
 * Entrada de dados com `Scanner`
 * Operações matemáticas
 * Estruturas condicionais (`if/else`)
-* Organização básica de código em Java
+* Organização e estruturação de código em Java
 
 ---
 
@@ -24,7 +24,7 @@ O programa solicita ao usuário:
 2. Segunda nota (N2)
 3. Terceira nota (N3)
 
-Após a entrada dos dados, ele:
+Após a entrada dos dados, o sistema:
 
 * Calcula a média das três notas
 * Exibe o resultado na tela
@@ -45,25 +45,25 @@ Após a entrada dos dados, ele:
 
 1. Clone este repositório:
 
-```
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```bash
+git clone https://github.com/jviclima2005-boop/calculadora-media-java.git
 ```
 
 2. Acesse a pasta do projeto:
 
-```
-cd nome-do-repositorio
+```bash
+cd calculadora-media-java
 ```
 
 3. Compile o código:
 
-```
+```bash
 javac App.java
 ```
 
 4. Execute o programa:
 
-```
+```bash
 java App
 ```
 
@@ -71,7 +71,7 @@ java App
 
 ## 📌 Exemplo de uso
 
-```
+```text
 Digite sua primeira N1:
 7
 Digite sua segunda N2:
@@ -87,15 +87,24 @@ Parabéns, você foi aprovado!
 
 ## 🚀 Melhorias futuras
 
-* Validação de entrada (evitar letras no lugar de números)
-* Permitir cálculo de média para vários alunos
-* Exibir maior e menor nota
+* Validação de entrada (impedir valores inválidos)
+* Suporte para múltiplos alunos
+* Exibição da maior e menor nota
 * Interface mais interativa no terminal
+
+---
+
+## 📚 Aprendizados
+
+* Manipulação de entrada de dados com `Scanner`
+* Uso de estruturas condicionais (`if/else`)
+* Organização de um programa simples em Java
+* Boas práticas iniciais com Git e GitHub
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por João Victor
+Desenvolvido por Victor Omena
 Estudante de Análise e Desenvolvimento de Sistemas
-Focado em evolução constante e construção de projetos práticos 🚀
+Em constante evolução na área de desenvolvimento 🚀
